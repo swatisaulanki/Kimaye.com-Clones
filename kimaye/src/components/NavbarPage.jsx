@@ -23,6 +23,9 @@ const NavbarPage = () => {
                 <NavDropdown.Item href='shop'>FRESH CUTS</NavDropdown.Item>
                 <NavDropdown.Item href='shop'>FRUIT COMBOS</NavDropdown.Item>
                 <NavDropdown.Item href='shop'>GIFTS BY KIMAYE</NavDropdown.Item>
+                <NavDropdown.Item href='shop'>GRAPE FAMILY BY KIMAYE</NavDropdown.Item>
+                <NavDropdown.Item href='shop'>RETURN AND REPLACEMENT</NavDropdown.Item>
+                <NavDropdown.Item href='shop'>COMMUNITY BUYING</NavDropdown.Item>
             </NavDropdown>
             
             <NavDropdown title='LEARN'>

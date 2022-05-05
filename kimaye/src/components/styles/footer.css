@@ -17,15 +17,15 @@
 
 .icon{
     display: flex;
-    gap: 25px;
+    gap: 15px;
     margin-top: 10px;
 }
 
-i{
-    color: black;
+img{
+    height: 30px;
 }
 
-i:hover{
-    color: white;
+
+img:hover{
     transform: scale(1.5)
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles/footer.css';
-import {Link, Route, Routes } from 'react-router-dom'
+import {Route, Routes } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -22,9 +22,9 @@ const Footer = () => {
         <div className='right'>
             <div>Follow Us On</div>
             <div className='icon'>
-                <a href='https://www.facebook.com/' target='_blank'><i class="fa-brands fa-facebook-f"></i></a>
-                <a href='https://www.instagram.com/?hl=en' target='_blank'><i class="fa-brands fa-instagram"></i></a>
-                <a href='https://twitter.com/login' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+                <a href='https://www.facebook.com/KimayeFruits/' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/fb-icon.png?v=1599571756' /></a>
+                <a href='https://www.instagram.com/kimayefruits/' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/insta-icon.png?v=1599571756' /></a>
+                <a href='https://twitter.com/kimaye_ini' target='_blank'><img src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/twitter-icon.png?v=1599571756' /></a>
             </div>  
         </div>
         
