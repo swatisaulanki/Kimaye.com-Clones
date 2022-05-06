@@ -1,31 +1,36 @@
 .footer{
     background-color: #7D9C5B;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
     text-align: left;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .left{
     font-weight: bold;
+    margin-top: 30px;
+    margin-left: 100px;
 }
 
 .right{
-    margin-top: 30px;
+    margin-top: 60px;
     font-weight: bold;
+    margin-right: 100px;
 }
 
-.icon{
+.icons{
     display: flex;
     gap: 15px;
     margin-top: 10px;
 }
 
-img{
+.icon{
     height: 30px;
 }
 
 
-img:hover{
+.icon:hover{
     transform: scale(1.5)
 }

@@ -20,7 +20,7 @@ function App() {
 
 
 
-        {/* <Footer /> */}
+        <Footer />
       </header>
     </div>
   );

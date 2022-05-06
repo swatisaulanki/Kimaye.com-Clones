@@ -5,3 +5,11 @@
 .bg-myColor{
     background-color: #EEEEEA
 }
+
+.icon{
+    height: 30px;
+}
+
+.icon:hover{
+    transform: scale(1.5)
+}

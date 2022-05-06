@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/navbar.css';
+import styles from './styles/navbar.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar, NavDropdown, NavLink} from 'react-bootstrap'
 
@@ -8,6 +8,7 @@ const dropdowns = {
     display : "flex",
     justifyContent: "space-between",
     padding: "10px 100px",
+    backgroundColor: "#EEEEEA"
 }
 
 
@@ -40,22 +41,22 @@ const NavbarPage = () => {
         
         <Nav>
             <NavLink href='home'>
-                <img className="logo" href='home' src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x.png?v=1596288204' />
+                <img className={styles.logo} href='home' src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x.png?v=1596288204' />
             </NavLink>
             
         </Nav>
 
         <Nav style={{display:"flex", gap:"30px"}}>
-            <NavLink>
+            <NavLink className={styles.icon}>
                 <i class="fa-solid fa-location-dot"></i>
             </NavLink>
-            <NavLink>
+            <NavLink className={styles.icon}>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </NavLink>
-            <NavLink href='cart'>
+            <NavLink href='cart' className={styles.icon}>
                 <i class="fa-solid fa-user"></i>
             </NavLink>
-            <NavLink href='login'>
+            <NavLink href='login' className={styles.icon}>
                 <i class="fa-solid fa-bag-shopping"></i>
             </NavLink>
                 
