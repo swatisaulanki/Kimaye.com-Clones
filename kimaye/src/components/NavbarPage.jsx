@@ -29,8 +29,8 @@ const NavbarPage = () => {
             </NavDropdown>
             
             <NavDropdown title='LEARN'>
-                <NavDropdown.Item href='learn'>OUR STORY</NavDropdown.Item>
-                <NavDropdown.Item href='learn'>WHY KIMAYE</NavDropdown.Item>
+                <NavDropdown.Item href='ourstory'>OUR STORY</NavDropdown.Item>
+                <NavDropdown.Item href='whykimaye'>WHY KIMAYE</NavDropdown.Item>
                 <NavDropdown.Item href='learn'>TRACEABILITY</NavDropdown.Item>
                 <NavDropdown.Item href='learn'>BEYOND FRUITS</NavDropdown.Item>
             </NavDropdown>

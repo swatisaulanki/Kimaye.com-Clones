@@ -3,12 +3,7 @@ import styles from './styles/footer.css';
 import {Route, Routes } from 'react-router-dom'
 
 const Footer = () => {
-
-    <Routes>
-        <Route path='facebook' element='https://www.facebook.com/' />
-    </Routes>
-
-
+    
   return (
     <div className='footer'>
         <div className='left'>
