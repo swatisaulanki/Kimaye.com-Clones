@@ -1,15 +1,15 @@
 
 import React from 'react'
-import pic1 from "./images/pic1.png";
-import pic2 from "./images/pic2.png";
-import pic3 from "./images/pic3.png";
-import pic4 from "./images/pic4.png";
-import pic5 from "./images/pic5.png";
-import pic6 from "./images/pic6.png";
-import pic7 from "./images/pic7.png";
-import slide1 from "./images/slide1.png";
-import slide2 from "./images/slide2.png";
-import slide3 from "./images/slide3.png";
+import pic1 from "../components/images/pic1.png"
+import pic2 from "../components/images/pic2.png";
+import pic3 from "../components/images/pic3.png";
+import pic4 from "../components/images/pic4.png";
+import pic5 from "../components/images/pic5.png";
+import pic6 from "../components/images/pic6.png";
+import pic7 from "../components/images/pic7.png";
+import slide1 from "../components/images/slide1.png";
+import slide2 from "../components/images/slide2.png";
+import slide3 from "../components/images/slide3.png";
 import Carousel from 'react-bootstrap/Carousel'
 
 export const OurStory = () => {
