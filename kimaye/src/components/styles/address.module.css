@@ -1,0 +1,37 @@
+.mono{
+    height: 50px;
+}
+
+.input{
+    width: 900px;
+    height: 50px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nameinput{
+    width: 450px;
+    height: 50px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.cityinput{
+    width: 300px;
+    height: 50px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    border: 3px solid orangered;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    font-weight: bolder;
+    background-color: rgba(255, 68, 0, 0.514);
+}

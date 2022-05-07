@@ -4,12 +4,13 @@ import Footer from './components/Footer';
 import { OurStory } from './pages/OurStory';
 import { Whykimaye } from './pages/Whykimaye';
 import { Route, Routes } from 'react-router-dom';
+import Address from './pages/Address';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavbarPage />
+        {/* <NavbarPage /> */}
 
 
 
@@ -20,7 +21,10 @@ function App() {
 
 
 
-        <Footer />
+        {/* <Footer /> */}
+
+        <Address />
+
       </header>
     </div>
   );
