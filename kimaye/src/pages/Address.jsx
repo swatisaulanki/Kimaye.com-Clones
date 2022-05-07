@@ -10,7 +10,7 @@ const Address = () => {
 
   return (
     <div>
-        <img className={styles.mono} src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x.png?v=1596288204' />
+        {/* <img className={styles.mono} src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x.png?v=1596288204' /> */}
         
         <h4 style={{marginTop: "30px", textDecoration:"none"}}>Contact Information</h4>
 

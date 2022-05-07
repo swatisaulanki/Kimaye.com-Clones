@@ -10,6 +10,7 @@ import Login from './other pages/Login';
 import Cart from './other pages/Cart';
 import About from './other pages/About';
 import Nav from './other pages/Nav';
+import { GrowDetails } from './grow page/GrowDetails';
 
 function App() {
   return (
@@ -30,9 +31,12 @@ function App() {
           <Route path='gifts' element={<Nav />} />
           <Route path='ourstory' element={<OurStory />} />
           <Route path='whykimaye' element={<Whykimaye />} />
+          <Route path='grow' element={<GrowDetails />} />
           <Route path='cart' element={<Cart />} />
           <Route path='address' element={<Address />} />
         </Routes>
+
+        <Footer />
 
 
 

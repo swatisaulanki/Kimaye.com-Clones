@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import Navbar from './Navbar'
 
 function Cart() {
+
+  const navigate = useNavigate();
 
     var swati = JSON.parse(localStorage.getItem("cartitms"))
      
@@ -39,7 +42,7 @@ function Cart() {
     height: "50px",
     fontWeight: "bolder",
     textAlign:"center",
-    backgroundColor: "rgba(255, 68, 0, 0.514)"}} onClick={() => window.open("address")}>
+    backgroundColor: "rgba(255, 68, 0, 0.514)"}} onClick={() => navigate("/address")}>
       PROCEED TO ADDRESS
     </button>
 
