@@ -1,0 +1,148 @@
+*{
+    font-family:JioBold;
+}
+
+.mini{
+    color: white;
+    font-size:50px;
+    background-color: navy;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,20%);
+    grid-gap:200px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right:50px;
+    row-gap: 20px;
+   
+}
+
+.card{
+    background-color: rgb(253, 243, 234);
+    border:0px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    height:450px;
+    width:350px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.all-btn{
+    margin-left:85px;
+    height:30px;
+    width:300px;
+    display:none;
+}
+.all-btn:hover button{
+  display:block;
+}
+h3{
+ margin-left: 150px;
+}
+
+p{
+    font-size: 12px;
+  
+    text-overflow:wrap;
+    overflow:wrap;
+}
+.price{
+    font-size: 12px;
+    display:flex;
+    justify-content:left;    
+    text-overflow:wrap;
+    gap:5px;
+}
+
+h4{
+    text-decoration: line-through;
+}
+h1{
+    
+    border: 1px solid rgb(211, 208, 208);
+    height: 100%;
+    border-radius: 10px;
+}
+p{
+    font-size: 17px;
+}
+
+.topdeal{
+    text-align: left;
+    font-size:35px;
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+    margin-left: 26px;
+    margin-top: -0.2px;
+    transform:skew(-20deg);
+
+
+}
+button{
+    border:none;
+}
+.all-btn{
+    display: flex;
+    transition: transform(15px);
+    border:none;
+}
+.all-btn:hover{
+transform: translate(-2%, -2%);
+}
+.all-btn button{
+    background-color: rgb(11, 195, 137);
+    color:white;
+    width:200px;
+    font-size: 20px;
+} 
+
+
+/* .all-btn{
+    display: none;
+    width: 330px;
+    height: 40px;
+    background-color: #437111;
+    margin-left: 60px;
+ 
+    margin-top: -4px;
+}
+.container1:hover button {
+ display:block
+} */
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.btn{
+    display: flex;
+    margin: 10px;
+    border:none;
+  
+}
+.btn > button{
+    margin-right: 8px;
+    margin-left: 10px;
+    height: 25px;
+    
+}
+
+.count-item{
+    font-size: 18px;
+  
+}
+.imgdata{
+    height:310px;
+    width:350px;
+    transition: transform(15px);
+}
+.imgdata:hover{
+transform: translate(-2%, -2%);
+}

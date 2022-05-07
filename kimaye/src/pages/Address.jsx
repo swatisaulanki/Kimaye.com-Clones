@@ -1,10 +1,7 @@
 import React from 'react'
-import { Routes, Route, useNavigate, useHref } from 'react-router-dom'
 import styles from '../components/styles/address.module.css'
 
 const Address = () => {
-
-    const navigate = useNavigate();
 
     const completed = () =>{
         alert("Your Order Is Placed");
@@ -15,11 +12,11 @@ const Address = () => {
     <div>
         <img className={styles.mono} src='https://cdn.shopify.com/s/files/1/0449/5225/6667/files/website-logo_400x.png?v=1596288204' />
         
-        <h4 style={{marginTop: "30px"}}>Contact Information</h4>
+        <h4 style={{marginTop: "30px", textDecoration:"none"}}>Contact Information</h4>
 
         <input type="text" placeholder="Email" className={styles.input} />
 
-        <h4 style={{marginTop: "30px"}}>Shipping Address</h4>
+        <h4 style={{marginTop: "30px", textDecoration:"none"}}>Shipping Address</h4>
 
         <select className={styles.input}>
             <option value="">Select Country</option>

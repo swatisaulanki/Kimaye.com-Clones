@@ -20,10 +20,10 @@ const NavbarPage = () => {
 
         <Nav style={{gap: "30px", color:"black"}}>
             <NavDropdown title='SHOP'>
-                <NavDropdown.Item href='shop'>ALL FRUITS</NavDropdown.Item>
-                <NavDropdown.Item href='shop'>FRESH CUTS</NavDropdown.Item>
-                <NavDropdown.Item href='shop'>FRUIT COMBOS</NavDropdown.Item>
-                <NavDropdown.Item href='shop'>GIFTS BY KIMAYE</NavDropdown.Item>
+                <NavDropdown.Item href='allfruits'>ALL FRUITS</NavDropdown.Item>
+                <NavDropdown.Item href='freshcuts'>FRESH CUTS</NavDropdown.Item>
+                <NavDropdown.Item href='fruitcombos'>FRUIT COMBOS</NavDropdown.Item>
+                <NavDropdown.Item href='gifts'>GIFTS BY KIMAYE</NavDropdown.Item>
                 <NavDropdown.Item href='shop'>GRAPE FAMILY BY KIMAYE</NavDropdown.Item>
                 <NavDropdown.Item href='shop'>RETURN AND REPLACEMENT</NavDropdown.Item>
                 <NavDropdown.Item href='shop'>COMMUNITY BUYING</NavDropdown.Item>
@@ -53,10 +53,10 @@ const NavbarPage = () => {
             <NavLink className={styles.icon}>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </NavLink>
-            <NavLink href='cart' className={styles.icon}>
+            <NavLink href='lll' className={styles.icon}>
                 <i class="fa-solid fa-user"></i>
             </NavLink>
-            <NavLink href='login' className={styles.icon}>
+            <NavLink href='cart' className={styles.icon}>
                 <i class="fa-solid fa-bag-shopping"></i>
             </NavLink>
                 
