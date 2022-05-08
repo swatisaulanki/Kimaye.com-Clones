@@ -27,10 +27,10 @@ const Navbar = () => {
         <Link to="/freshcuts">FRESH CUTS</Link>
       </div>
       <div>
-        <Link to="/">FRUIT COMBOS</Link>
+        <Link to="/fruitcombos">FRUIT COMBOS</Link>
       </div>
       <div>
-        <Link to="/nav">GIFT BY KIMAYE</Link>
+        <Link to="/gifts">GIFT BY KIMAYE</Link>
       </div>
     </div>
   );
