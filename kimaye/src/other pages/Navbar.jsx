@@ -10,27 +10,28 @@ const Navbar = () => {
         color: "white",
         fontSize: "20px",
         display: "flex",
-        gap:"20px",
-        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+        justifyContent:"center",
+         gap:"20px",
+        // boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
         margin:" 20px auto",
         // marginLeft:"290px",
-        width:"600px",
+        width:"100%",
         // height:"55px",
-        textDecoration:"none"
+        
 
       }}
     >
       <div>
-        <Link to="/allfruits">ALL FRUITS</Link>
+        <Link to="/allfruits" style={{textDecoration:"none"}} >ALL FRUITS</Link>
       </div>
       <div>
-        <Link to="/freshcuts">FRESH CUTS</Link>
+        <Link to="/freshcuts" style={{textDecoration:"none"}}>FRESH CUTS</Link>
       </div>
       <div>
-        <Link to="/fruitcombos">FRUIT COMBOS</Link>
+        <Link to="/fruitcombos" style={{textDecoration:"none"}}>FRUIT COMBOS</Link>
       </div>
       <div>
-        <Link to="/gifts">GIFT BY KIMAYE</Link>
+        <Link to="/gifts" style={{textDecoration:"none"}}>GIFT BY KIMAYE</Link>
       </div>
     </div>
   );
