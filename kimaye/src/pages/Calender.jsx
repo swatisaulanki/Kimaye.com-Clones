@@ -43,7 +43,7 @@ const Calender = () => {
           }}
         >
           <div style={{color: "black", display: "inline-block", margin: "110px 120px 0 0", textAlign: "left"}}>
-            <h4 style={{fontSize: "27px"}}>Grown responsibly</h4>
+            <h4 style={{fontSize: "27px", textDecoration:"none"}}>Grown responsibly</h4>
             <p style={{marginTop: "20px", fontSize: "19px"}}>
               We follow G.A.P. (Good <br /> Agriculture Practices) to ensure <br /> food safety
             </p>

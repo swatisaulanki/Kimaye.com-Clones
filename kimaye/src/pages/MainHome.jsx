@@ -208,7 +208,7 @@ img{
 }
 `
 
-const Home = () => {
+const MainHome = () => {
   return (
     <Div1>
       {/* 1st Part--------------------------------------------------------> */}
@@ -332,7 +332,7 @@ const Home = () => {
       <P4>We are here</P4>
       {/* 9th Part--------------------------------------------------------> */}
       <Div6>
-        <img src="https://scontent.cdninstagram.com/v/t51.29350-15/279877546_410944957186663_3645984651689349100_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=CA65jpLfwDIAX-gO7Nq&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8iD4N2PTv9hs_4zzmg_rHdp_TR9jpvTlI9TqA6vXWaZw&oe=62772D5A" alt="" />
+        <img src="https://scontent.cdninstagram.com/v/t51.29350-15/280018347_1320382968486497_2513491272513190970_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=Wb1reLbfqsYAX8tqpOc&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_ldYu1wemrDKOkWFN4n3j7PV-XDq92Lv2lfbHRrh1k-g&oe=627C4AF3" alt="" />
         <img src="https://scontent.cdninstagram.com/v/t51.29350-15/279584617_402054775098099_8165081373274929559_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=5bWKd45PFs4AX9kNRYL&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8OgJaWI_tZl8sU37iHF2lbBom2c2LX4ynexY80DqIQzQ&oe=6278BACF" alt="" />
         <img src="https://scontent.cdninstagram.com/v/t51.29350-15/279579352_381593833881713_2956149657746956752_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=wfdaVgs0It0AX9NCucR&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_22ozvRZ3i5cSYNvg8zFmyhYJqUYlD0ZUwfdX0N2KHlw&oe=62787211" alt="" />
         <img src="https://scontent.cdninstagram.com/v/t51.29350-15/279452424_677986353311129_3143169318889300662_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=wcfbiQVzaxkAX9fV2UT&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9jjUo0NfL22aMQSDRGPaP07KARWjFmZ6pkirtqhBfkuw&oe=62780A96" alt="" />
@@ -341,4 +341,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default MainHome;

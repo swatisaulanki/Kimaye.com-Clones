@@ -3,7 +3,7 @@ import NavbarPage from './components/NavbarPage';
 import Footer from './components/Footer';
 import { OurStory } from './pages/OurStory';
 import { Whykimaye } from './pages/Whykimaye';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import Address from './pages/Address';
 import Home from './other pages/Home';
 import Login from './other pages/Login';
@@ -11,20 +11,26 @@ import Cart from './other pages/Cart';
 import About from './other pages/About';
 import Nav from './other pages/Nav';
 import { GrowDetails } from './grow page/GrowDetails';
+import MainHome from './pages/MainHome';
+import { useEffect } from 'react';
 
 function App() {
+
+  const navigate = useNavigate();
+
+  // useEffect(() =>{
+  //   navigate("/home")
+  // }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <NavbarPage /> */}
-
-        {/* <Home /> */}
+      {/* <header className="App-header"> */}
+    
 
         <NavbarPage />
 
-
-
         <Routes>
+          <Route path='' element={<MainHome />} />
           <Route path='allfruits' element={<Home />} />
           <Route path='freshcuts' element={<Login />} />
           <Route path='fruitcombos' element={<About />} />
@@ -44,7 +50,7 @@ function App() {
 
         {/* <Address /> */}
 
-      </header>
+      {/* </header> */}
     </div>
   );
 }

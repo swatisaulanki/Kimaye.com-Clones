@@ -32,7 +32,7 @@ const Carousel_1 = () => {
             src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
             alt=""
           />
-          <h4 style={{ color: "black", marginTop: "-20%" }}>
+          <h4 style={{ color: "black", marginTop: "-20%", textDecoration:"none" }}>
             Top Fruits Safety Tips You Should Be Swearing <br /> By Everytime You
             Consume Them.
           </h4>
@@ -48,7 +48,7 @@ const Carousel_1 = () => {
             src="https://images.pexels.com/photos/65256/pomegranate-open-cores-fruit-fruit-logistica-65256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
           />
-          <h4 style={{ color: "black", marginTop: "-20%" }}>
+          <h4 style={{ color: "black", marginTop: "-20%", textDecoration:"none" }}>
             Fruits Rich In Vitamin C That You Should Be <br /> Eating EveryDay
           </h4>
           <p>

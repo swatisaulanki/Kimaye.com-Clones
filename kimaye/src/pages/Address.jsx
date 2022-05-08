@@ -5,7 +5,7 @@ const Address = () => {
 
     const completed = () =>{
         alert("Your Order Is Placed");
-        window.open("/home");
+        window.open("/");
     }
 
   return (
