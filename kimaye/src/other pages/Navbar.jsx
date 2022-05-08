@@ -21,13 +21,13 @@ const Navbar = () => {
       }}
     >
       <div>
-        <Link to="/">ALL FRUITS</Link>
+        <Link to="/allfruits">ALL FRUITS</Link>
       </div>
       <div>
-        <Link to="/login">FRESH CUTS</Link>
+        <Link to="/freshcuts">FRESH CUTS</Link>
       </div>
       <div>
-        <Link to="/about">FRUIT COMBOS</Link>
+        <Link to="/">FRUIT COMBOS</Link>
       </div>
       <div>
         <Link to="/nav">GIFT BY KIMAYE</Link>
