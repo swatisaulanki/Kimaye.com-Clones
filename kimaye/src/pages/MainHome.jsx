@@ -217,10 +217,11 @@ const MainHome = () => {
       <img
         style={{
           marginTop: "100px",
-          paddingLeft: "37.3%",
+          // paddingLeft: "37.3%",
           display: "flex",
           alignItems: "flex-start",
-          marginLeft: "0",
+          marginLeft: "600px",
+          width: "50px",
         }}
         src="https://cdn.shopify.com/s/files/1/0449/5225/6667/t/25/assets/recom-leaf.png"
         alt=""
