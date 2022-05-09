@@ -1,1 +1,3 @@
-# kimaye-clone
+About This Project
+
+The name of the project is Kimaye.com. Kimaye is India’s largest online Fruits delivery marketplace, connecting buyers with suppliers. The project was executed by 6 members in 5 days. We are all students at Masai School and currently, we are in Unit-4, so at the end of each unit, we will be assigned a project to build using all the concepts we learned in that particular unit. When we received Kimaye.com the website to clone first thing we did was go through the flow of the actual website and we distributed the tasks among ourselves. Next, we had a meeting with our Designers and have gone through the designs prepared by them, no doubt both of them created beautiful layouts for us. Then, coming to the Tech Stack to be used, we used React frameworks and libraries that all 6 devs were familiar with for the development.
